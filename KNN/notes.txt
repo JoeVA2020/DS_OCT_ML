@@ -1,0 +1,66 @@
+for input df should be in 2 diemension
+output should be in 1 diemension
+input and output shoould be in array values. '' .values'' coverts df to array 
+
+#Normamalization and scalling
+#Normalization is used to convert the input data into a similar/common scale
+
+#Methods of Normalization
+#1.standard Scaler
+#2.Min Max Scaler
+
+#Standard Scaler
+#``````````````````
+#works based on a mathemathical equation
+# z=(x-u)/s
+# z=standardized value
+# x= input of training data
+# u=mean of the training data
+# s=standard deviation of the training data
+
+
+*******  REFER TO 'diabetes.ipynb' for MORE UNDERSTANDING ***************************
+
+# performance evaluvation 
+# Performance evaluvation is different for classification and regression
+#..............................
+#   1.Accuracy score
+#   2.Recall
+#   3.Prescision
+#   4.F1_score
+#..............................
+#///////////////////////////////////
+
+#classification model performance evaluvation baesd on confusion matrics
+#   4 technical terms
+
+#   TP : True Positive
+#   TN : True Negetive
+#   FP : False Positive
+#   FN : False Negetive
+
+#       y_test   y_pred
+# TP :  1   ===>   1
+# TN :  0   ===>   0
+# FP :  0   ===>   1
+# FN :  1   ===>   0
+
+#Eg: 
+# y_test : 0 0 1 0 1 1 0 1 0 0 1 0 0 1 1 1 0
+# y_pred : 0 1 0 1 0 0 1 0 1 1 1 0 1 1 0 1 0
+
+# TP : 3
+# TN : 3
+# FP : 6
+# FN : 5
+
+#CONFUTION MATRIX STRUCTURE
+#       [TP  FP]
+#       [FN  TN]
+
+
+# Accuracy_Score = TP+TN/(TP+TN+FP+FN)
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```````````````````````````````````````````````````````````````````````````````````````````````````````````

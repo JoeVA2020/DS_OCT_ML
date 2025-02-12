@@ -1,0 +1,23 @@
+
+Naive Bayes Algorithm
+......................
+
+It is a supervised machine learning Algorithm
+Used for classification
+works based on probability
+uses Bayes theorem
+Need conditional probabilityto learn bayes theorem
+
+
+probability : Chances of occurance
+
+Coin toss : Head==> 1/2    Tail==> 1/2
+Die toss  : 1 ==> 1/6 2==>1/6 3==> 1/6
+
+
+conditional probability : probability of a event occuring even though an event has occured
+
+navie baies algo consists of 3 classifiers
+1. Gausian      : for continuous data
+2. Multinomial  : for discrete data
+3. Burnouli
