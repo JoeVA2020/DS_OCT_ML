@@ -1,3 +1,35 @@
+
+
+
+Training and Testing DATA
+----------------------------
+
+Training DATA : Data used to train Machine
+Testting DAta : DAta used to test Machine
+
+70% of Data : Training
+30% of Data : Testing
+
+
+input  ==> input features
+output ==> output features
+
+other output details/values ==> output labels
+
+---------------------------------------------
+KNN ALGORITHM : K Nearest Neighbours
+---------------------------------------------
+
+:- Supervised Machine learning Algorithm
+:- Used for both classification and regression
+:- Majority used for classification
+:- Works based on Distance formula / euclidean distance formula
+:- Always odd number
+
+formula = root{(x2-x1)^2+(y2-y1)^2}
+
+=================================================================
+
 for input df should be in 2 diemension
 output should be in 1 diemension
 input and output shoould be in array values. '' .values'' coverts df to array 
