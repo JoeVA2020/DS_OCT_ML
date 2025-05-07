@@ -1,0 +1,11 @@
+# Mediapipe
+
+Is a python library
+
+used for implement AI tools or deep learning
+
+Hand landmark application
+
+Gesture Recognition
+Sighn language 
+Gaming
