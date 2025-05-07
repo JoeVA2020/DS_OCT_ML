@@ -1,0 +1,10 @@
+Transfered learning : is a machine learning technique where a model trained on one task is repurposed as the foundation for a second task. 
+
+Transfer learning models : vgg 16, vgg 19
+
+CNN ==> Input layer
+        Convolution layer
+        Pooling layer
+        Flatten layer
+        Output layer
+
